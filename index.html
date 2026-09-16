@@ -134,6 +134,7 @@ select{
   padding:4px 10px;border-radius:6px;letter-spacing:.02em;
 }
 .msg{
+  display:flow-root;                 /* contiene el float del sello de hora */
   max-width:81%;padding:6px 9px 5px;border-radius:8px;margin-bottom:6px;
   font-size:13.2px;line-height:1.38;color:#111B21;position:relative;
   box-shadow:0 1px .5px rgba(0,0,0,.13);word-wrap:break-word;
@@ -143,7 +144,7 @@ select{
 .msg.them{background:#fff;margin-right:auto;border-top-left-radius:2px}
 .msg.me{background:#DCF8C6;margin-left:auto;border-top-right-radius:2px}
 .stamp{
-  float:right;margin:6px -2px -2px 9px;font-size:9.5px;color:#7d8a8f;
+  float:right;margin:5px 0 0 10px;font-size:9.5px;color:#7d8a8f;
   display:flex;align-items:center;gap:3px;line-height:1;
 }
 .tick{color:#53BDEB;font-size:11px;letter-spacing:-3px;font-weight:700}
